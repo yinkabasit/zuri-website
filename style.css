@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: new-font;
+}
+
+@font-face {
+  font-family: new-font;
+  src: url("./AvertaDemo-Regular.otf");
+}
+.childone {
+  text-align: center;
+  padding-top: 80px;
+  /* padding-left: 80px;
+  padding-right: 80px; */
+  background-color: rgb(250, 245, 245);
+  background-image: url(/zuri-site/images/hero-bg.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dot {
+  color: red;
+}
+.zuri-team {
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(74, 68, 68);
+}
+.learn {
+  margin-bottom: 50px;
+  font-size: 38px;
+  color: rgb(74, 68, 68);
+}
+.unlock {
+  font-size: 20px;
+  color: #645f5f;
+  max-width: 840px;
+  text-align: center;
+  margin: auto;
+  line-height: 1.6;
+  margin-bottom: 120px;
+}
+.red {
+  color: red;
+  text-decoration: none;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 200px;
+  flex: no-wrap;
+}
+.new,
+.need {
+  padding: 15px 34px;
+  font-size: 22px;
+  border: 1px solid red;
+  cursor: pointer;
+  text-decoration: none;
+}
+.new,
+.need:hover {
+  background-color: #e60000;
+  color: white;
+}
+.new:hover,
+.need {
+  background-color: white;
+  color: #e60000;
+}
+.childtwo {
+  text-align: center;
+  margin-top: 180px;
+}
+.by {
+  color: red;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.we-cater {
+  line-height: 1.7;
+  font-size: 23px;
+}
+.child-container {
+  position: relative;
+}
+.dottings {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.img {
+  max-width: 350px;
+}
+.img img {
+  width: 100%;
+}
+.childthree {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: -400px;
+  /* position: absolute;
+  top: 10px; */
+}
+.childthree-1,
+.childthree-2,
+.childthree-3 {
+  background-color: #fef9f9;
+  height: auto;
+  width: 460px;
+  padding: 100px 20px;
+}
+/* .child-container {
+  background-image: url(/zuri-site/images/left_bvmv7q\ 1.png);
+  width: 400px;
+  height: 400px;
+} */
+
+.zuri-t {
+  font-weight: 1200;
+  color: rgb(32, 29, 29);
+  font-size: 21px;
+  margin: auto;
+  margin-left: 40px;
+  margin-bottom: 120px;
+  margin-top: 40px;
+}
+.we-understand {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #312e2e;
+  line-height: 1.5;
+}
+.one {
+  margin: auto;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+.childfour {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  /* gap: 140px; */
+  margin-top: 300px;
+  /* margin-left: 0; */
+  margin-bottom: 56px;
+  padding: 20px;
+  /* flex-wrap: wrap; */
+}
+.childfour-1 {
+  width: 50px;
+}
+/* .childfour-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 250px;
+} */
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+.links {
+  margin-bottom: -5px;
+}
+.store,
+.blog {
+  margin: auto;
+}
+
+/* .store {
+  padding: 0;
+  margin-left: 0;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.blog {
+  margin-left: 0;
+} */
+.childfour-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 250px;
+}
+.address {
+  font-size: 18px;
+  color: #645f5f;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.hello {
+  margin: 0;
+}
+.childfour-4 {
+  max-width: 250px;
+}
+.follow {
+  margin-bottom: 20px;
+}
+.social-media {
+  display: flex;
+  gap: 7px;
+  /* max-width: 30px; */
+}
+.social-media img {
+  width: 25px;
+  max-width: 100%;
+}
+hr {
+  margin-bottom: 40px;
+}
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: #312e2e;
+  /* font-weight: 1200; */
+  margin-bottom: 110px;
+}
+
+@media screen and (max-width: 650px) {
+  .childone {
+    padding-top: 130px;
+    margin-bottom: 170px;
+  }
+  .unlock {
+    padding: 15px;
+    max-width: 590px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    /* padding: 20px 15px; */
+  }
+  .new {
+    /* height: 60px; */
+    padding: 20px -10px;
+    font-size: 20px;
+  }
+  /* buttons .need {
+    padding: 10px 20px;
+  } */
+  .need {
+    width: 340px;
+    margin-left: -20px;
+    padding: 15px 20px;
+    font-size: 20px;
+  }
+  .by {
+    font-size: 18px;
+  }
+  .we-cater {
+    font-size: 25px;
+  }
+  #imaging,
+  #imaging1 {
+    display: none;
+  }
+  .childthree-1,
+  .childthree-2,
+  .childthree-3 {
+    width: 530px;
+    margin: 30px auto;
+  }
+  .childfour {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    /* width: 72%; */
+  }
+  .childfour-1 {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: -50px;
+  }
+  .childfour-1 img {
+    width: 150px;
+    /* padding: auto; */
+    /* text-align: center;
+    margin: auto; */
+  }
+  .childfour-3,
+  .childfour-4 {
+    text-align: center;
+    margin: auto;
+  }
+  .links,
+  .contacts,
+  .follow {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .contacts {
+    margin-bottom: -15px;
+  }
+  .address {
+    margin-top: -10px;
+    width: 300px;
+    margin: auto;
+  }
+  .hello {
+    margin-top: -15px;
+  }
+  .follow {
+    margin-bottom: -10px;
+  }
+}
